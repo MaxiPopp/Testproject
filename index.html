@@ -1,0 +1,26 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form onsubmit="myFunction(); return false;">
+        <input id="name" pattern="[A-Za-z]+" required minlength="2" type="text" placeholder="Dein Namen">
+        <input id="email" required type="email" placeholder="Deine Email">
+        <input id="number" required type="number" min="10" placeholder="Dein Alter">
+        <button>Absenden</button>
+    </form>
+
+    <script>
+        function myFunction() {
+
+            let name = document.getElementById('name');
+
+        }
+    </script>
+</body>
+
+</html>
